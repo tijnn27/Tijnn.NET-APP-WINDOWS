@@ -1,7 +1,8 @@
 {
   "name": "tijnn.net",
   "version": "1.0.0",
-  "description": "",
+  "icon": "./Tijn_logo_white.ico",
+  "description": "An Electron made application where you can view my site.",
   "main": "index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -9,8 +10,8 @@
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Tijnn27",
+  "license": "MIT",
   "devDependencies": {
     "@electron-forge/cli": "^6.1.1",
     "@electron-forge/maker-deb": "^6.1.1",

@@ -11,7 +11,8 @@ const createWindow = () => {
         autoHideMenuBar: true,
         webPreferences: {
             nodeIntegration: true
-        }
+        },
+        icon: './Tijn_logo_white.png'
     });
     mainWindow.maximize();
     // and load the index.html of the app.

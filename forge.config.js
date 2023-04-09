@@ -1,5 +1,7 @@
 module.exports = {
-  packagerConfig: {},
+  packagerConfig: {
+    icon: "./Tijn_logo_white.ico"
+  },
   rebuildConfig: {},
   makers: [
     {
